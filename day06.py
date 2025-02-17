@@ -4,6 +4,7 @@
 # 단, 해당 프로그램이 로그시간을 갖도록 한다
 import random
 
+test = "Testtest"
 def guess_number(low, high, answer, chance) -> int:
     mid =  (low+high) // 2
     print(f'Guess number is {mid}')
